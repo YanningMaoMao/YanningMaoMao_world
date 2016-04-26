@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160425235228) do
+=======
+ActiveRecord::Schema.define(version: 20160425235207) do
+>>>>>>> 6f758b19c625036a0b42bb9a22778c576bba44b3
 
   create_table "articles", force: true do |t|
     t.string   "title"
